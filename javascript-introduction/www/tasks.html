@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="tasksAdmin.js"></script>
+</head>
+<body>
+    <h1 data-cy="pageHeader">Tareas</h1>
+    <div data-cy="mainDiv">
+        <ol id="taskList"></ol>
+    </div>
+    <form data-cy="taskForm">
+        <input id="form-name" data-cy="input1" type="text" placeholder="Desc. Tarea">
+        <input id="form-priority" data-cy="input2" type="number" placeholder="Importancia">
+        <input data-cy="inputSubmit" type="submit">
+        <input id="form-date" data-cy="input3" type="date" placeholder="Fecha"> 
+    </form>
+    <button id="sortByImportanceButton" data-cy="sortByImportanceButton">Ordenar por relevancia</button>
+    <button id="sortByDeadlineButton" data-cy="sortByDeadlineButton">Ordenar por fecha</button>
+</body>
+</html>

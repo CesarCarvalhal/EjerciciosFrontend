@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script type="module" defer src="taxiAdmin.js"></script>
+  </head>
+
+  <body>
+    <h4 data-cy="pageHeader">Taxis</h4>
+    <div id="mainDiv" data-cy="main">
+      <ol data-cy="orderedListOfTaxis" id="taxisList"></ol>
+    </div>
+    <form data-cy="taxiForm" id="taxiForm">
+      <input
+        data-cy="input1"
+        name="inputName"
+        type="text"
+        placeholder="Nombre"
+      />
+      <input data-cy="input2" name="inputKms" type="number" placeholder="Kms" />
+      <input
+        data-cy="input3"
+        name="inputTravelCount"
+        type="number"
+        placeholder="Viajes"
+      />
+      <input data-cy="input4" type="submit" value="Insertar" />
+    </form>
+
+    <button id="sortButton" data-cy="sortButton">Ordenar</button>
+  </body>
+</html>

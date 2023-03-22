@@ -1,0 +1,21 @@
+{
+  "title": "React",
+  "description": "Para preguntar sobre cuestiones de React y su uso",
+  "last_updated": 1655196052.984299,
+  "questions": [
+    {
+      "question_id": 8,
+      "title": "React Router Link",
+      "description": "¿Qué es un Link?",
+      "author": "pepe.depura",
+      "created_at": 1655287710.732749
+    },
+    {
+      "question_id": 8,
+      "title": "ReactNative",
+      "description": "He escuchado hablar de React Native... ¿Qué es?",
+      "author": "pepe.depura",
+      "created_at": 5555
+    }
+  ]
+}

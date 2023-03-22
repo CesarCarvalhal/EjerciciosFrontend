@@ -1,0 +1,39 @@
+{
+  "dashboard_title": "Mundo JavaScript",
+  "question_title": "Bucles for",
+  "question_author": "pepe.depura",
+  "question": "¿Cómo son los bucles for en JavaScript?",
+  "created_at": 1655195744.213453,
+  "answers": [
+    {
+      "answer_id": 6,
+      "description": "¡Espero haber ayudado!",
+      "author": "jane.doe",
+      "created_at": 1655196363.316047
+    },
+    {
+      "answer_id": 5,
+      "description": "Aquí hay algo más de documentación https://www.udacity.com/blog/2021/01/javascript-for-loop.html",
+      "author": "jane.doe",
+      "created_at": 1655196350.16171
+    },
+    {
+      "answer_id": 4,
+      "description": "Existen diferentes tipos de bucles for. Los principales son el for simple (de toda la vida) y el for in",
+      "author": "jane.doe",
+      "created_at": 1655196333.635601
+    },
+    {
+      "answer_id": 3,
+      "description": "Vaya... Parece que w3schools está caído. Prueba este otro https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach",
+      "author": "jane.doe",
+      "created_at": 1655196280.443336
+    },
+    {
+      "answer_id": 2,
+      "description": "Aquí hay un enlace que puede ayudarte https://www.w3schools.com/js/js_loop_for.asp",
+      "author": "jane.doe",
+      "created_at": 1234
+    }
+  ]
+}

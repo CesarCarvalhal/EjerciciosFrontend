@@ -1,0 +1,15 @@
+{
+  "dashboard_title": "Mundo JavaScript",
+  "question_title": "Bucles for",
+  "question_author": "pepe.depura",
+  "question": "¿Cómo son los bucles for en JavaScript?",
+  "created_at": 1655195744.213453,
+  "answers": [
+    {
+      "answer_id": 1,
+      "description": "¿A qué te refieres exactamente preguntando eso?",
+      "author": "jane.doe",
+      "created_at": 5555
+    }
+  ]
+}

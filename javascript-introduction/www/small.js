@@ -1,0 +1,1 @@
+document.getElementById("p2").innerHTML = "Alterado con un script externo";

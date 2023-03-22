@@ -1,0 +1,42 @@
+{
+  "title": "React",
+  "description": "Para preguntar sobre cuestiones de React y su uso",
+  "last_updated": 1655203252.984299,
+  "questions": [
+    {
+      "question_id": 7,
+      "title": "React Router vale la pena?",
+      "description": "¿Por qué usar React Router?",
+      "author": "pepe.depura",
+      "created_at": 1655203252.968315
+    },
+    {
+      "question_id": 6,
+      "title": "React Router Navigate",
+      "description": "¿Qué es Navigate?",
+      "author": "pepe.depura",
+      "created_at": 1655203100.341355
+    },
+    {
+      "question_id": 5,
+      "title": "React Router Outlet",
+      "description": "¿Qué es Outlet en React Router?",
+      "author": "pepe.depura",
+      "created_at": 1655203084.981434
+    },
+    {
+      "question_id": 4,
+      "title": "React Router Switch",
+      "description": "¿Qué es Switch?",
+      "author": "pepe.depura",
+      "created_at": 1655203068.735411
+    },
+    {
+      "question_id": 3,
+      "title": "React Router NavLink",
+      "description": "¿Qué es un NavLink? ¿Es diferente a un Link?",
+      "author": "pepe.depura",
+      "created_at": 1234
+    }
+  ]
+}

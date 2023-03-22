@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  },
+  "dependencies": {
+    "odiff": "^1.4.3",
+    "odiff-bin": "^2.5.0"
+  }
+}

@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta charset="utf8" />
+  <link rel="stylesheet" href="/projects/css/kanban.css" />
+  <script defer src="/projects/js/kanban.js"></script>
+</head>
+
+<body>
+    <div id="parent">
+      <div class="topBar" data-cy="pageToolsBarContainer">
+        <div class="fullscreenButtonContainer" data-cy="fullscreenButtonContainer">
+          <button id="fullscreenButton" data-cy="fullscreenButton">Pantalla completa</button>
+        </div>
+
+      <div class="newTaskContainer" data-cy="newTaskContainer">
+        <form id="newTaskForm" data-cy="formNewTask">
+          <label for="newTaskText"><b>Crear tarea: </b></label>
+          <input data-cy="inputAddTaskName" type="text" name="inputTaskName" placeholder="Funcionalidad de fullscreen" />
+          <select name="inputTaskType" data-cy="inputAddTaskType">
+            <option value="other">Otro</option>
+            <option value="backend">Backend</option>
+            <option value="frontend">Frontend</option>
+            <option value="urgent">Urgente</option>
+          </select>
+          <input type="submit" value="Crear tarea" data-cy="inputCreateTaskSubmit" />
+        </form>
+      </div>
+      <hr class="topBarSeparator">
+      <div id="notStartedColumn" class="kanbanColumn column1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <p><h3>Por hacer</h3></p>
+        <div id="task0" class="taskNote yellow" draggable="true" ondragstart="drag(event)">
+          Detección de colisiones entre dos objetos 2D en JS' within the element
+        </div>
+    </div>
+    <div id="task1" class="kanbanColumn column2" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <p><h3>Diseño</h3></p>
+    </div>
+    <div id="task2" class="kanbanColumn column3" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <p><h3>Implementación</h3></p>
+    </div>
+      <div id="task3" class="kanbanColumn column4" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <p><h3>Tests</h3></p>
+    </div>
+    <div id="task4" class="kanbanColumn column5" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <p><h3>Acabado</h3></p>
+    </div>
+
+    </div>
+</body>
+</html>

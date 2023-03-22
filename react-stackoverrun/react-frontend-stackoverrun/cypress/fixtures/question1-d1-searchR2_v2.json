@@ -1,0 +1,21 @@
+{
+  "dashboard_title": "Mundo JavaScript",
+  "question_title": "Bucles for",
+  "question_author": "pepe.depura",
+  "question": "¿Cómo son los bucles for en JavaScript?",
+  "created_at": 1655195744.213453,
+  "answers": [
+    {
+      "answer_id": 5,
+      "description": "Aquí hay algo más de documentación https://www.udacity.com/blog/2021/01/javascript-for-loop.html",
+      "author": "jane.doe",
+      "created_at": 1655196350.16171
+    },
+    {
+      "answer_id": 2,
+      "description": "Aquí hay un enlace de documentación que puede ayudarte https://www.w3schools.com/js/js_loop_for.asp",
+      "author": "jane.doe",
+      "created_at": 1655196235.112169
+    }
+  ]
+}

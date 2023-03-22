@@ -1,0 +1,47 @@
+.imagen {
+  width: 27%;
+  height: 27%;
+  border-radius: 5%;
+  margin-bottom: 1%;
+}
+
+.bottom {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 30px;
+  background-color: #0000000d;
+  color: #0e0e10;
+  padding: 0 10px;
+}
+
+.bottom:hover {
+  background-color: #0000001a;
+}
+
+.input0 {
+  margin: 0 auto;
+  width: 15%;
+  height: 20px;
+  font-size: 12px;
+  padding: -1px 0px;
+  border-radius: 4px;
+  line-height: 1.5;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.input0:hover {
+  border-color: #ccc;
+}
+.input0:focus {
+  border-color: #9147ff;
+  background: #fff;
+}
